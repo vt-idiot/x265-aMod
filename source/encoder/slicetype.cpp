@@ -1062,7 +1062,6 @@ Lookahead::Lookahead(x265_param *param, ThreadPool* pool)
 #endif
 
     memset(m_histogram, 0, sizeof(m_histogram));
-}
 
 #if DETAILED_CU_STATS
 void Lookahead::getWorkerStats(int64_t& batchElapsedTime, uint64_t& batchCount, int64_t& coopSliceElapsedTime, uint64_t& coopSliceCount)
